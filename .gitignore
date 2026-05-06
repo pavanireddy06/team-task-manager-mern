@@ -6,3 +6,4 @@ npm-debug.log*
 server/node_modules/
 client/node_modules/
 client/dist/
+demo-video/

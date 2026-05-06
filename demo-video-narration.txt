@@ -1,0 +1,20 @@
+Team Task Manager Demo Narration
+================================
+
+This is a full-stack MERN Team Task Manager application deployed on Railway.
+
+First, I log in as an Admin user. The dashboard shows the total projects, total tasks, tasks in progress, and overdue tasks.
+
+Next, I open the Projects section. Admin users can create projects, add descriptions, and assign members to projects.
+
+Then I open the Tasks section. Admin users can create tasks, assign them to members, set priority, set due dates, and filter tasks by status, project, assignee, or overdue state.
+
+I enable the overdue filter to show that the application can identify incomplete tasks whose due dates have already passed.
+
+I also update a task status from the task board to show progress tracking.
+
+After that, I log out and log in as a Member user. Members only see their assigned projects and tasks.
+
+As a Member, I open the Tasks section and update the status of an assigned task. This demonstrates role-based access control: Members can update their own assigned task status, while Admin-only management actions remain protected.
+
+Finally, I return to the dashboard, where the task counts reflect the updated status.
